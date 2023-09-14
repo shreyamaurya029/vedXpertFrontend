@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <p>Heloo, world !Let us start with VedXpert</p>
+      <p>Hello, world !Let us start with VedXpert</p>
     </>
   );
 }
