@@ -1,9 +1,14 @@
-import "./App.css";
-
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./Pages";
+import { Navbar, Footer } from "./Components";
 function App() {
   return (
     <>
-      <p>Hello, world !Let us start with VedXpert</p>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
